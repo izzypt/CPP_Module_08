@@ -4,7 +4,8 @@
 
 # Table of Content
 
-- [What are containers](#containers)
+- [What is STL](#stl)
+- [What are STL containers](#containers)
 - [Types of STL Container in C++](#types)
 - [Sequential Containers](#sequential)
 - [Associative Containers](#associative)
@@ -15,6 +16,18 @@
 
 ### Related links:
 - https://www.scaler.com/topics/cpp/containers-in-cpp/
+
+<a id="stl"></a>
+# What is STL
+
+STL (standard template library) is a software library for the C++ language that provides a collection of templates representing containers, iterators, algorithms, and function objects. In this tutorial, you will learn about C++ STL in detail.
+
+STL has 4 major components:
+
+- Algorithms
+- Containers
+- Functors
+- Iterators
 
 <a id="containers"></a>
 # STL Containers
