@@ -7,8 +7,11 @@
 - [What are containers](#containers)
 - [Types of STL Container in C++](#types)
 - [Sequential Containers](#sequential)
-- [Associative Containers](#sequential)
-- [Unordered Associative Containers](#sequential)
+- [Associative Containers](#associative)
+- [Unordered Associative Containers](#unordered)
+- [Sequential Exampple](#sequential_example)
+- [Associative Example](#associative_example)
+- [Unordered Exampple](#unordered_example)
 
 ### Related links:
 - https://www.scaler.com/topics/cpp/containers-in-cpp/
@@ -51,6 +54,10 @@ Types of Sequential Containers
    - **List**
    - **Forward List**
 
+![image](https://github.com/izzypt/CPP_Module_08/assets/73948790/6d8f1d41-c2c2-451e-a3b1-6459452de18b)
+
+
+<a id="associative"></a>
 # Associative Containers in C++
 
 In C++, associative containers <ins>allow us to store elements in sorted order</ins>. The order doesn't depend upon when the element is inserted.
@@ -64,6 +71,9 @@ Types of Associative Containers
    - **Multiset**
    - **Multimap**
 
+![image](https://github.com/izzypt/CPP_Module_08/assets/73948790/07312051-ec3b-47df-897e-b5c3fc13d2e8)
+
+<a id="unordered"></a>
 # Unordered Associative Containers in C++
 
 In C++, STL Unordered Associative Containers provide the unsorted versions of the associative container.
@@ -76,3 +86,46 @@ Types of Unordered Associative Containers
    - **Unordered Map**
    - **Unordered Multiset**
    - **Unordered Multimap**
+
+<a id="sequential_example"></a>
+# Sequential Container Example
+
+In this example, we will be using the vector class to demonstrate the working of a sequential container.
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+  // initialize a vector of int type
+  vector<int> numbers = {1, 100, 10, 70, 100};
+
+  // print the vector
+  cout << "Numbers are: ";
+  for(auto &num: numbers) {
+    cout << num << ", ";
+  }
+
+  return 0;
+}
+```
+
+Output:
+
+```cpp
+Numbers are: 1, 100, 10, 70, 100,
+```
+In the above example, we have created sequential container numbers using the vector class.
+
+```cpp
+vector<int> numbers = {1, 100, 10, 70, 100};
+```
+Here, we have used a ranged for loop to print each element of the container.
+
+In the output, we can see the numbers are shown in sequential order as they were initialized.
+```cpp
+// output numbers
+1, 100, 10, 70, 100,
+```
