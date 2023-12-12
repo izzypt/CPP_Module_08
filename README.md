@@ -129,3 +129,46 @@ In the output, we can see the numbers are shown in sequential order as they were
 // output numbers
 1, 100, 10, 70, 100,
 ```
+<a id="associative_example"></a>
+# Associative Container (set)
+In this example, we will be using the set class to demonstrate the working of an associative container.
+
+```cpp
+#include <iostream>
+#include <set>
+using namespace std;
+
+int main() {
+
+  // initialize a set of int type
+  set<int> numbers = {1, 100, 10, 70, 100};
+
+  // print the set
+  cout << "Numbers are: ";
+    for(auto &num: numbers) {
+      cout << num << ", ";
+    }
+
+  return 0;
+}
+```
+Output:
+
+```cpp
+Numbers are: 1, 10, 70, 100,
+```
+In the above example, we have created an associative container using the set class.
+
+We have initialized a set named numbers with unordered integers, along with a duplicate value 100:
+
+```cpp
+set<int> numbers = {1, 100, 10, 70, 100};
+```
+Then we print the content of the set using a ranged for loop.
+
+In the output, we see that the numbers are sorted in ascending order with duplicate numbers removed. Initially, 100 was repeated twice but the set removes the duplicate number 100.
+
+```cpp
+// output numbers
+1, 10, 70, 100
+```
