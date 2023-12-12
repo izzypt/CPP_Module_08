@@ -29,3 +29,31 @@ In C++, there are generally <ins>3 kinds of STL containers</ins>:
    - **Sequential Containers**
    - **Associative Containers**
    - **Unordered Associative Containers**
+
+<a id="sequential"></a>
+# Sequential Containers in C++
+
+In C++, <ins>sequential containers allow us to store elements that can be accessed in sequential order</ins>.
+
+Internally, sequential containers are implemented as arrays or linked lists data structures.
+
+Types of Sequential Containers
+
+   - **Array**
+   - **Vector**
+   - **Deque**
+   - **List**
+   - **Forward List**
+
+# Associative Containers in C++
+
+In C++, associative containers <ins>allow us to store elements in sorted order</ins>. The order doesn't depend upon when the element is inserted.
+
+Internally, they are implemented as binary tree data structures.
+
+Types of Associative Containers
+
+   - **Set**
+   - **Map**
+   - **Multiset**
+   - **Multimap**
