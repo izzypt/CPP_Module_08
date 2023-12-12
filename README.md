@@ -130,7 +130,7 @@ In the output, we can see the numbers are shown in sequential order as they were
 1, 100, 10, 70, 100,
 ```
 <a id="associative_example"></a>
-# Associative Container (set)
+# Associative Container Example (set)
 In this example, we will be using the set class to demonstrate the working of an associative container.
 
 ```cpp
