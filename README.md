@@ -60,3 +60,16 @@ Types of Associative Containers
    - **Map**
    - **Multiset**
    - **Multimap**
+
+# Unordered Associative Containers in C++
+
+In C++, STL Unordered Associative Containers provide the unsorted versions of the associative container.
+
+Internally, unordered associative containers are implemented as hash table data structures.
+
+Types of Unordered Associative Containers
+
+   - **Unordered Set**
+   - **Unordered Map**
+   - **Unordered Multiset**
+   - **Unordered Multimap**
