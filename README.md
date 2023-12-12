@@ -30,6 +30,9 @@ In C++, there are generally <ins>3 kinds of STL containers</ins>:
    - **Associative Containers**
    - **Unordered Associative Containers**
 
+ ![image](https://github.com/izzypt/CPP_Module_08/assets/73948790/8869a758-5c09-4093-aaec-f0fe201b1778)
+
+
 <a id="sequential"></a>
 # Sequential Containers in C++
 
